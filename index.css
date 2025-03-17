@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: aliceblue;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    font-size: large;
+    font-weight: 550;
+}
+nav ul{
+    display: flex;
+    justify-content:center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.colored{
+    color: #4BB60D;
+    margin: 8px;
+}
+nav .left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 250px 0 0;
+}
+nav .left:hover{
+font-size: larger;
+}
+nav ul li:hover{
+    color: #4BB60D;
+    text-decoration: underline;
+}
+main .page1{
+    display: flex;
+    margin-top:100px ;
+    align-items: center;
+}
+main .page1 .right{
+    margin-left: 170px;
+}
+main .line h1{
+    display: flex;
+    align-items: center;
+}
+main .line h3{
+    display: flex;
+    align-items: center;
+}
+main .page1 .left ul li{
+    list-style: none;
+} 
+main .page1 .left ul{
+    margin-left: 100px;
+}
+main .page1 .left ul div {
+    font-size: larger;
+    padding: 5px;
+}
+main .icon{
+    display: flex;
+    margin: 5px;
+}
+main .icon li{
+    margin: 10px;
+}
+#linkedin{
+    color: #4BB60D;
+    font-size: 1.8rem;
+}
+#github{
+    color: #4BB60D;
+    font-size: 1.8rem;
+}
+#github:hover{
+    color:#BCEC9F ;
+    font-size: 2rem;
+}
+#linkedin:hover{
+    color:#BCEC9F ;
+    font-size: 2rem;
+}
+main .button{
+    
+    border-color: #4BB60D;
+    border-radius: 20px;
+    color: #4BB60D;
+    padding: 5px;
+    width: 90px;
+    background-color: black;
+    cursor: pointer;
+    margin: 5px;
+}
+main .button:hover{
+    border-color: #BCEC9F;
+    border-radius: 20px;
+    color: #BCEC9F;
+    padding: 5px;
+    width: 85px;
+    background-color: #4BB60D;
+    font-size: 0.9rem;
+}
+main .page1 .left a{
+    color: #4BB60D;
+}
+main .page1 .left ul .icon {
+    display: flex;
+}
+main .section2 h1{
+    justify-self:  center;
+    margin-top: 70px;
+}
+main .eduline {
+    border-left: 6px solid green;
+  height: 420px;
+  margin-top: 90px;
+ 
+  
+}
+ main .eduction-section{
+    display: flex;
+    justify-content: center;
+ }
+ main .eduction-section .left-content ul li{
+    list-style: none;
+    margin-top: 90px;
+ }
+ main .eduction-section .right-content ul li{
+    list-style: none;
+    margin-top: 90px;
+ }
+
+ main .eduction-section .left-content ul li .info1{
+    border: 4px solid #4BB60D;
+    padding: 10px;
+    border-radius: 40px;
+ }
+ main .eduction-section .right-content ul li .info2{
+    border: 4px solid #4BB60D;
+    padding: 10px;
+    border-radius: 40px;
+ }
+ .eduline{
+    margin: 0 10px;
+ }
+ #element{
+    color: #4BB60D;
+ }
+  
