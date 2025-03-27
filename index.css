@@ -13,7 +13,6 @@ body{
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    border: 2px solid red;
 }
 nav{
     display: flex;
@@ -144,7 +143,7 @@ main .button2:hover{
 main .page1 .left a{
     color: #4BB60D;
 }
-main .page1 .left ul .icon {
+main .pagition: absolute;e1 .left ul .icon {
     display: flex;
 }
 main .section2 h1{
@@ -173,16 +172,24 @@ main .eduline {
 
  main .eduction-section .left-content ul li .info1{
     border: 0.25rem solid #4BB60D;
-    /* padding: 0.625rem; */
+    padding: 0.625rem;
     border-radius: 2.5rem;
+    width: 35rem;
  }
  main .eduction-section .right-content ul li .info2{
     border: 0.25rem solid #4BB60D;
     padding: 0.625rem;
     border-radius: 2.5rem;
+    margin-top: 10rem;
+    width: 35rem;
  }
  .eduline{
     margin: 0 0.625rem;
+ }
+ .eduline .right-content .date{
+    position: absolute;
+    top: 20rem;
+    left:30rem;
  }
  #element{
     color: #4BB60D;
